@@ -377,23 +377,23 @@ button {
   button.suggested-action {
     background-clip: border-box;
     color: white;
-    background-color: #4DADD4;
-    border-color: #4DADD4; }
+    background-color: #3B5C00;
+    border-color: #3B5C00; }
     button.suggested-action.flat, button.suggested-action.sidebar-button {
       border-color: transparent;
       background-color: transparent;
       background-image: none;
-      color: #4DADD4; }
+      color: #3B5C00; }
     button.suggested-action:hover {
       background-clip: border-box;
       color: white;
-      background-color: #76c0de;
-      border-color: #76c0de; }
+      background-color: #5c8f00;
+      border-color: #5c8f00; }
     button.suggested-action:active, button.suggested-action:checked {
       background-clip: border-box;
       color: white;
-      background-color: #2e96c0;
-      border-color: #2e96c0; }
+      background-color: #1a2900;
+      border-color: #1a2900; }
     button.suggested-action.flat:disabled, button.suggested-action.sidebar-button:disabled {
       border-color: transparent;
       background-color: transparent;
@@ -1194,23 +1194,23 @@ window.csd > .titlebar:not(headerbar):backdrop {
 .primary-toolbar button.suggested-action, headerbar button.suggested-action {
   background-clip: border-box;
   color: white;
-  background-color: #4DADD4;
-  border-color: #4DADD4; }
+  background-color: #3B5C00;
+  border-color: #3B5C00; }
   .primary-toolbar button.suggested-action.flat, headerbar button.suggested-action.flat, .primary-toolbar button.suggested-action.sidebar-button, headerbar button.suggested-action.sidebar-button {
     border-color: transparent;
     background-color: transparent;
     background-image: none;
-    color: #4DADD4; }
+    color: #3B5C00; }
   .primary-toolbar button.suggested-action:hover, headerbar button.suggested-action:hover {
     background-clip: border-box;
     color: white;
-    background-color: #76c0de;
-    border-color: #76c0de; }
+    background-color: #5c8f00;
+    border-color: #5c8f00; }
   .primary-toolbar button.suggested-action:active, headerbar button.suggested-action:active, .primary-toolbar button.suggested-action:checked, headerbar button.suggested-action:checked {
     background-clip: border-box;
     color: white;
-    background-color: #2e96c0;
-    border-color: #2e96c0; }
+    background-color: #1a2900;
+    border-color: #1a2900; }
   .primary-toolbar button.suggested-action.flat:disabled, headerbar button.suggested-action.flat:disabled, .primary-toolbar button.suggested-action.sidebar-button:disabled, headerbar button.suggested-action.sidebar-button:disabled, .primary-toolbar button.suggested-action:disabled, headerbar button.suggested-action:disabled {
     background-color: rgba(115, 116, 117, 0);
     border-color: rgba(115, 116, 117, 0); }
@@ -4037,18 +4037,18 @@ GtkListBox .h4 {
 #restart_button.button {
   background-clip: border-box;
   color: green;
-  background-color: #4DADD4;
-  border-color: #4DADD4; }
+  background-color: #3B5C00;
+  border-color: #3B5C00; }
   #restart_button.button:hover {
     background-clip: border-box;
     color: green;
-    background-color: #76c0de;
-    border-color: #76c0de; }
+    background-color: #5c8f00;
+    border-color: #5c8f00; }
   #restart_button.button:active, #restart_button.button:checked {
     background-clip: border-box;
     color: green;
-    background-color: #2e96c0;
-    border-color: #2e96c0; }
+    background-color: #1a2900;
+    border-color: #1a2900; }
 
 #greeter_infobar {
   border-bottom-width: 0;
