@@ -6,11 +6,11 @@ Booster Themes are themes for GTK 3, GTK 2 and GNOME Shell
 
 ##### Nvidia
 
-![screenshot](http://i.imgur.com/yhYPwLL.png)
+![screenshot](http://i.imgur.com/mRYufq2.png)
 
 ##### Hot Rod
 
-![screenshot](http://i.imgur.com/d3bNMey.png)
+![screenshot](http://i.imgur.com/3ouMgrM.png)
 
 ### Manual Installation
 
