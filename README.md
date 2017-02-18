@@ -24,6 +24,7 @@ For the theme to function properly, install the following
 * GNOME Shell, GTK 3.22
 * `gnome-themes-standard` package
   * `gtk-engine-murrine`
+  * `ttf-ubuntu-font-family`
 
 Install the theme with the following commands
 
