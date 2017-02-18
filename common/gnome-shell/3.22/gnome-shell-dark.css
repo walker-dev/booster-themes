@@ -21,6 +21,11 @@ stage {
   font-size: 11pt;
   color: #696D71; }
 
+.timeLabel {
+  padding-top: 6px;
+  padding-left: 10px;
+  padding-right: 10px; }
+
 .button {
   min-height: 20px;
   padding: 5px 32px;
