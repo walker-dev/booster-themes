@@ -25,8 +25,8 @@ $asset_path: if($variant == 'dark', dark-assets, light-assets);
 //
 // Globals
 //
-$font-size: 9;
-$font-family: Futura Bk bt, Cantarell, Sans-Serif;
+$font-size: 11;
+$font-family: Ubuntu;
 $_bubble_bg_color: opacify($osd_bg_color,0.25);
 $_bubble_fg_color: $osd_fg_color;
 $_bubble_borders_color: transparentize($osd_fg_color,0.8);
@@ -1277,17 +1277,17 @@ StScrollBar {
     > StIcon {
       icon-size: 18px;
       border-radius: 0px;
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close.svg');
     }
     &:hover > StIcon {
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close-hover.svg');
     }
     &:active > StIcon {
-      color: transparent; 
+      color: transparent;
       background-color: transparent;
       background-image: url('#{$asset_path}/misc/message-close-active.svg');
     }
@@ -2072,7 +2072,7 @@ $legacy_icon_size: 24px;
   &:active, &:checked { @include button(osd-active); }
 
   &:grayed { @include button(osd-insensitive); }
-}                             
+}
 
 .keyboard-subkeys { //long press on a key popup
   color: $osd_fg_color;
