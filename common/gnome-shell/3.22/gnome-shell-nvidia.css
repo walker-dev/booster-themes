@@ -145,28 +145,28 @@ StScrollBar {
 .check-box StBin {
   width: 16px;
   height: 16px;
-  background-image: url("assets/checkbox/checkbox-unchecked.svg"); }
+  background-image: url("assets/checkbox/checkbox-unchecked.png"); }
 
 .check-box:focus StBin {
-  background-image: url("assets/checkbox/checkbox-unchecked-focused.svg"); }
+  background-image: url("assets/checkbox/checkbox-unchecked-focused.png"); }
 
 .check-box:checked StBin {
-  background-image: url("assets/checkbox/checkbox-checked.svg"); }
+  background-image: url("assets/checkbox/checkbox-checked.png"); }
 
 .check-box:focus:checked StBin {
-  background-image: url("assets/checkbox/checkbox-checked-focused.svg"); }
+  background-image: url("assets/checkbox/checkbox-checked-focused.png"); }
 
 .toggle-switch {
   width: 50px;
   height: 20px;
   background-size: contain;
-  background-image: url("assets/switch/switch-off.svg"); }
+  background-image: url("assets/switch/switch-off.png"); }
   .toggle-switch:checked {
-    background-image: url("assets/switch/switch-on.svg"); }
+    background-image: url("assets/switch/switch-on.png"); }
   .popup-menu-item.selected .toggle-switch {
-    background-image: url("assets/switch/switch-off-selected.svg"); }
+    background-image: url("assets/switch/switch-off-selected.png"); }
     .popup-menu-item.selected .toggle-switch:checked {
-      background-image: url("assets/switch/switch-on-selected.svg"); }
+      background-image: url("assets/switch/switch-on-selected.png"); }
 
 .shell-link {
   color: #aeff20; }
@@ -186,7 +186,7 @@ StScrollBar {
   color: #696D71;
   background-color: rgba(28, 30, 37, 0);
   border: none;
-  border-image: url("assets/misc/modal.svg") 9 9 9 67;
+  border-image: url("assets/misc/modal.png") 9 9 9 67;
   padding: 0 5px 6px 5px; }
   .modal-dialog .modal-dialog-content-box {
     padding: 20px 10px 10px 10px; }
@@ -461,11 +461,11 @@ StScrollBar {
 .popup-menu {
   min-width: 15em;
   color: #696D71;
-  border-image: url("assets/menu/menu.svg") 9 9 9 9; }
+  border-image: url("assets/menu/menu.png") 9 9 9 9; }
   .popup-menu .popup-sub-menu {
     background: none;
     box-shadow: none;
-    border-image: url("assets/menu/submenu.svg") 9 9 9 9; }
+    border-image: url("assets/menu/submenu.png") 9 9 9 9; }
   .popup-menu .popup-menu-content {
     padding: 1em 0em 1em 0em; }
   .popup-menu .popup-menu-item {
@@ -478,11 +478,11 @@ StScrollBar {
       font-weight: normal;
       background: none;
       box-shadow: none;
-      border-image: url("assets/menu/submenu-open.svg") 9 9 9 9; }
+      border-image: url("assets/menu/submenu-open.png") 9 9 9 9; }
     .popup-menu .popup-menu-item:active, .popup-menu .popup-menu-item.selected {
       color: #ffffff;
       background-color: transparent;
-      border-image: url("assets/menu/menu-hover.svg") 9 9 1 1; }
+      border-image: url("assets/menu/menu-hover.png") 9 9 1 1; }
     .popup-menu .popup-menu-item:insensitive {
       color: rgba(105, 109, 113, 0.5);
       background: none; }
@@ -520,7 +520,7 @@ StScrollBar {
   margin: 0;
   background-color: transparent;
   border: none;
-  border-image: url("assets/menu/menu-separator.svg") 1 1 1 1; }
+  border-image: url("assets/menu/menu-separator.png") 1 1 1 1; }
 
 .background-menu {
   -boxpointer-gap: 4px;
@@ -538,7 +538,7 @@ StScrollBar {
   background: none;
   border: none;
   border-radius: 5px;
-  border-image: url("assets/misc/osd.svg") 9 9 9 9; }
+  border-image: url("assets/misc/osd.png") 9 9 9 9; }
   .osd-window .osd-monitor-label {
     font-size: 3em; }
   .osd-window .level {
@@ -556,7 +556,7 @@ StScrollBar {
   background: none;
   border: none;
   border-radius: 5px;
-  border-image: url("assets/misc/osd.svg") 9 9 9 9;
+  border-image: url("assets/misc/osd.png") 9 9 9 9;
   padding: 12px; }
 
 .switcher-popup {
@@ -566,7 +566,7 @@ StScrollBar {
 .switcher-list {
   background: none;
   border: none;
-  border-image: url("assets/misc/bg.svg") 9 9 9 9;
+  border-image: url("assets/misc/bg.png") 9 9 9 9;
   border-radius: 3px;
   padding: 20px; }
   .switcher-list-item-container {
@@ -614,7 +614,7 @@ StScrollBar {
   .workspace-switcher-group {
     padding: 12px; }
   .workspace-switcher-container {
-    border-image: url("assets/misc/bg.svg") 9 9 9 9;
+    border-image: url("assets/misc/bg.png") 9 9 9 9;
     border-radius: 3px;
     padding: 20px;
     padding-bottom: 24px; }
@@ -655,14 +655,14 @@ StScrollBar {
   background-gradient-direction: none;
   background-color: transparent;
   border-bottom-width: 0;
-  border-image: url("assets/panel/panel.svg") 1 1 1 1; }
+  border-image: url("assets/panel/panel.png") 1 1 1 1; }
   #panel.dynamic-top-bar-white-btn {
     border-image: none; }
   #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
     background-color: transparent;
     border-image: none; }
   #panel:overview {
-    border-image: url("assets/panel/panel-overview.svg") 1 1 1 1; }
+    border-image: url("assets/panel/panel-overview.png") 1 1 1 1; }
   #panel #panelLeft, #panel #panelCenter {
     spacing: 8px; }
   #panel .panel-corner {
@@ -733,7 +733,7 @@ StScrollBar {
     width: 0; }
 
 #panel #panelActivities.panel-button > * {
-  background-image: url("assets/panel/activities.svg");
+  background-image: url("assets/panel/activities.png");
   background-position: center top;
   width: 24px;
   height: 24px;
@@ -751,7 +751,7 @@ StScrollBar {
   border-bottom-width: 1px;
   border-color: transparent; }
   #panel #panelActivities.panel-button:active > *, #panel #panelActivities.panel-button:overview > *, #panel #panelActivities.panel-button:focus > *, #panel #panelActivities.panel-button:checked > * {
-    background-image: url("assets/panel/activities-active.svg"); }
+    background-image: url("assets/panel/activities-active.png"); }
 
 .system-switch-user-submenu-icon {
   icon-size: 20px;
@@ -762,7 +762,7 @@ StScrollBar {
   padding: 0 4px; }
 
 #appMenu {
-  spinner-image: url("assets/misc/process-working.svg");
+  spinner-image: url("assets/misc/process-working.png");
   spacing: 4px;
   padding: 0 8px; }
   #appMenu .label-shadow {
@@ -874,30 +874,30 @@ StScrollBar {
     background-color: transparent; }
 
 .calendar-change-month-back {
-  background-image: url("assets/misc/calendar-arrow-left.svg"); }
+  background-image: url("assets/misc/calendar-arrow-left.png"); }
   .calendar-change-month-back:focus, .calendar-change-month-back:hover {
-    background-image: url("assets/misc/calendar-arrow-left-hover.svg"); }
+    background-image: url("assets/misc/calendar-arrow-left-hover.png"); }
   .calendar-change-month-back:active {
-    background-image: url("assets/misc/calendar-arrow-left.svg"); }
+    background-image: url("assets/misc/calendar-arrow-left.png"); }
   .calendar-change-month-back:rtl {
-    background-image: url("assets/misc/calendar-arrow-right.svg"); }
+    background-image: url("assets/misc/calendar-arrow-right.png"); }
     .calendar-change-month-back:rtl:focus, .calendar-change-month-back:rtl:hover {
-      background-image: url("assets/misc/calendar-arrow-right-hover.svg"); }
+      background-image: url("assets/misc/calendar-arrow-right-hover.png"); }
     .calendar-change-month-back:rtl:active {
-      background-image: url("assets/misc/calendar-arrow-right.svg"); }
+      background-image: url("assets/misc/calendar-arrow-right.png"); }
 
 .calendar-change-month-forward {
-  background-image: url("assets/misc/calendar-arrow-right.svg"); }
+  background-image: url("assets/misc/calendar-arrow-right.png"); }
   .calendar-change-month-forward:focus, .calendar-change-month-forward:hover {
-    background-image: url("assets/misc/calendar-arrow-right-hover.svg"); }
+    background-image: url("assets/misc/calendar-arrow-right-hover.png"); }
   .calendar-change-month-forward:active {
-    background-image: url("assets/misc/calendar-arrow-right.svg"); }
+    background-image: url("assets/misc/calendar-arrow-right.png"); }
   .calendar-change-month-forward:rtl {
-    background-image: url("assets/misc/calendar-arrow-left.svg"); }
+    background-image: url("assets/misc/calendar-arrow-left.png"); }
     .calendar-change-month-forward:rtl:focus, .calendar-change-month-forward:rtl:hover {
-      background-image: url("assets/misc/calendar-arrow-left-hover.svg"); }
+      background-image: url("assets/misc/calendar-arrow-left-hover.png"); }
     .calendar-change-month-forward:rtl:active {
-      background-image: url("assets/misc/calendar-arrow-left.svg"); }
+      background-image: url("assets/misc/calendar-arrow-left.png"); }
 
 .calendar-day-base {
   font-size: 80%;
@@ -981,26 +981,26 @@ StScrollBar {
     border-radius: 0px;
     color: transparent;
     background-color: transparent;
-    background-image: url("assets/misc/message-close.svg"); }
+    background-image: url("assets/misc/message-close.png"); }
   .message-list-section-close:hover > StIcon {
     color: transparent;
     background-color: transparent;
-    background-image: url("assets/misc/message-close-hover.svg"); }
+    background-image: url("assets/misc/message-close-hover.png"); }
   .message-list-section-close:active > StIcon {
     color: transparent;
     background-color: transparent;
-    background-image: url("assets/misc/message-close-active.svg"); }
+    background-image: url("assets/misc/message-close-active.png"); }
 
 .message {
   padding: 4px;
   color: #696D71;
-  border-image: url("assets/misc/message.svg") 9 9 9 9; }
+  border-image: url("assets/misc/message.png") 9 9 9 9; }
   .message:hover, .message:focus {
     color: #696D71;
-    border-image: url("assets/misc/message-hover.svg") 9 9 9 9; }
+    border-image: url("assets/misc/message-hover.png") 9 9 9 9; }
   .message:active {
     color: #ffffff;
-    border-image: url("assets/misc/message-active.svg") 9 9 9 9; }
+    border-image: url("assets/misc/message-active.png") 9 9 9 9; }
   .message-icon-bin {
     padding: 8px 0px 8px 8px; }
     .message-icon-bin:rtl {
@@ -1048,10 +1048,10 @@ StScrollBar {
 .ripple-box {
   width: 52px;
   height: 52px;
-  background-image: url("assets/misc/corner-ripple-ltr.svg");
+  background-image: url("assets/misc/corner-ripple-ltr.png");
   background-size: contain; }
   .ripple-box:rtl {
-    background-image: url("assets/misc/corner-ripple-rtl.svg"); }
+    background-image: url("assets/misc/corner-ripple-rtl.png"); }
 
 .popup-menu-arrow {
   width: 16px;
@@ -1061,17 +1061,17 @@ StScrollBar {
   icon-size: 16px; }
 
 .window-close {
-  background-image: url("assets/misc/close.svg");
+  background-image: url("assets/misc/close.png");
   background-size: 26px;
   height: 26px;
   width: 26px; }
   .window-close:hover {
-    background-image: url("assets/misc/close-hover.svg");
+    background-image: url("assets/misc/close-hover.png");
     background-size: 26px;
     height: 26px;
     width: 26px; }
   .window-close:active {
-    background-image: url("assets/misc/close-active.svg");
+    background-image: url("assets/misc/close-active.png");
     background-size: 26px;
     height: 26px;
     width: 26px; }
@@ -1212,7 +1212,7 @@ StScrollBar {
 .search-provider-icon-more {
   width: 16px;
   height: 16px;
-  background-image: url("assets/misc/more-results.svg"); }
+  background-image: url("assets/misc/more-results.png"); }
 
 #dash {
   font-size: 1em;
@@ -1228,7 +1228,7 @@ StScrollBar {
   .top #dash, .bottom #dash {
     padding: 0; }
   #dash .placeholder {
-    background-image: url("assets/dash/dash-placeholder.svg");
+    background-image: url("assets/dash/dash-placeholder.png");
     background-size: contain;
     height: 24px; }
   #dash .empty-dash-drop-target {
@@ -1277,16 +1277,16 @@ StScrollBar {
   height: 4px; }
 
 #dashtodockContainer .running1 .app-well-app-running-dot {
-  background-image: url("assets/dash/running1.svg"); }
+  background-image: url("assets/dash/running1.png"); }
 
 #dashtodockContainer .running2 .app-well-app-running-dot {
-  background-image: url("assets/dash/running2.svg"); }
+  background-image: url("assets/dash/running2.png"); }
 
 #dashtodockContainer .running3 .app-well-app-running-dot {
-  background-image: url("assets/dash/running3.svg"); }
+  background-image: url("assets/dash/running3.png"); }
 
 #dashtodockContainer .running4 .app-well-app-running-dot {
-  background-image: url("assets/dash/running4.svg"); }
+  background-image: url("assets/dash/running4.png"); }
 
 .show-apps .overview-icon {
   background-color: rgba(0, 0, 0, 0.5);
@@ -1427,13 +1427,13 @@ StScrollBar {
   .page-indicator .page-indicator-icon {
     width: 18px;
     height: 18px;
-    background-image: url(assets/misc/page-indicator-inactive.svg); }
+    background-image: url(assets/misc/page-indicator-inactive.png); }
   .page-indicator:hover .page-indicator-icon {
-    background-image: url(assets/misc/page-indicator-hover.svg); }
+    background-image: url(assets/misc/page-indicator-hover.png); }
   .page-indicator:active .page-indicator-icon {
-    background-image: url(assets/misc/page-indicator-active.svg); }
+    background-image: url(assets/misc/page-indicator-active.png); }
   .page-indicator:checked .page-indicator-icon, .page-indicator:checked:active {
-    background-image: url(assets/misc/page-indicator-checked.svg); }
+    background-image: url(assets/misc/page-indicator-checked.png); }
 
 .app-well-app > .overview-icon.overview-icon-with-label,
 .grid-search-result .overview-icon.overview-icon-with-label {
@@ -1450,12 +1450,12 @@ StScrollBar {
 .workspace-thumbnails,
 .workspace-thumbnails-left:rtl {
   padding-right: 7px;
-  border-image: url("assets/dash/dash-right.svg") 9 9 9 9; }
+  border-image: url("assets/dash/dash-right.png") 9 9 9 9; }
 
 .workspace-thumbnails:rtl,
 .workspace-thumbnails-left {
   padding-left: 7px;
-  border-image: url("assets/dash/dash-left.svg") 9 9 9 9; }
+  border-image: url("assets/dash/dash-left.png") 9 9 9 9; }
 
 .workspace-thumbnail-indicator {
   border: 4px solid rgba(118, 185, 0, 0.8);
@@ -1485,7 +1485,7 @@ StScrollBar {
   color: #696D71;
   background-color: transparent;
   border: 1px solid transparent;
-  border-image: url("assets/menu/menu.svg") 9 9 9 9; }
+  border-image: url("assets/menu/menu.png") 9 9 9 9; }
   .notification-banner .notification-icon,
   .notification-banner:hover .notification-icon,
   .notification-banner:focus .notification-icon {
@@ -1939,7 +1939,7 @@ StScrollBar {
   padding: 8px 8px 10px 8px;
   background-color: rgba(0, 0, 0, 0.7);
   border: 1px solid black;
-  border-image: url("assets/misc/bg.svg") 9 9 9 9;
+  border-image: url("assets/misc/bg.png") 9 9 9 9;
   border-radius: 2px;
   color: #5D6167; }
   #LookingGlassDialog > #Toolbar {
