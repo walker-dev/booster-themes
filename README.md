@@ -14,7 +14,7 @@ Booster Themes are themes for GTK 3, GTK 2 and GNOME Shell
 
 ### Manual Installation
 
-To build the theme the follwing packages are required 
+To build the theme the follwing packages are required
 * `autoconf`
 * `automake`
 * `pkg-config`
@@ -43,6 +43,7 @@ Other options to pass to autogen.sh are
 
     --disable-nvidia           disable Nvidia Theme
     --disable-hotrod           disable Hot Rod Theme
+    --disable-purplerage       disable Purple Rage Theme
 
 ## Uninstall
 
