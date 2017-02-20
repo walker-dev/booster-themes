@@ -1,6 +1,8 @@
 themepurpleragedir	=	$(datadir)/themes/Booster-PURPLERAGE
-
 ithemepurpleragedir	=	$(DESTDIR)$(themepurpleragedir)
+
+themenvidiadir	=	$(datadir)/themes/Booster-NVIDIA
+ithemenvidiadir	=	$(DESTDIR)$(themenvidiadir)
 
 install-exec-hook:
 
@@ -11,4 +13,10 @@ if ENABLE_PURPLERAGE
 	cp -r $(srcdir)/PURPLERAGE/* $(ithemepurpleragedir)
 endif # ENABLE_PURPLERAGE
 
-EXTRA_DIST = $(srcdir)/PURPLERAGE
+if ENABLE_NVIDIA
+	$(MKDIR_P) $(ithemenvidiadir)
+	cp -r $(srcdir)/NVIDIA/* $(ithemenvidiadir)
+endif # ENABLE_NVIDIA
+
+EXTRA_DIST = $(srcdir)/PURPLERAGE \
+							$(srcdir)/NVIDIA
