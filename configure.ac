@@ -9,10 +9,9 @@ AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz foreign])
 AC_PROG_MKDIR_P
 
-BOOSTER_ENABLE([NVIDIA],        [nvidia],        [Booster Nvidia],    [disable])
-BOOSTER_ENABLE([HOTROD],        [hotrod],        [Booster Hotrod],    [disable])
-
-AS_IF([test "x$ENABLE_GNOME_SHELL$ENABLE_GTK3" != xnono], [BOOSTER_GNOME])
+BOOSTER_ENABLE([PURPLERAGE],    [purplerage],   [Booster PURPLERAGE],   [disable])
+BOOSTER_ENABLE([NVIDIA],        [nvidia],       [Booster NVIDIA],       [disable])
+BOOSTER_ENABLE([HOTROD],        [hotrod],       [Booster HOTROD],       [disable])
 
 AC_CONFIG_FILES([
     common/Makefile
