@@ -8,7 +8,7 @@ install-data-local:
 
 if ENABLE_PURPLERAGE
 	$(MKDIR_P) $(ithemepurpleragedir)
-	cp -r $(srcdir)/PURPLERAGE $(ithemepurpleragedir)/
+	cp -r $(srcdir)/PURPLERAGE/* $(ithemepurpleragedir)
 endif # ENABLE_PURPLERAGE
 
 EXTRA_DIST = $(srcdir)/PURPLERAGE
