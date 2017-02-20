@@ -11,6 +11,7 @@ AC_PROG_MKDIR_P
 
 BOOSTER_ENABLE([PURPLERAGE],    [purplerage],   [Booster PURPLERAGE],   [disable])
 BOOSTER_ENABLE([NVIDIA],        [nvidia],       [Booster NVIDIA],       [disable])
+BOOSTER_ENABLE([HOTROD],        [hotrod],       [Booster HOTROD],       [disable])
 
 AC_CONFIG_FILES([
     common/Makefile
