@@ -9,7 +9,8 @@ AC_CONFIG_MACRO_DIR([m4])
 AM_INIT_AUTOMAKE([no-dist-gzip dist-xz foreign])
 AC_PROG_MKDIR_P
 
-BOOSTER_ENABLE([PURPLERAGE],        [purperage],        [Booster PURPLERAGE],    [disable])
+BOOSTER_ENABLE([PURPLERAGE],    [purplerage],   [Booster PURPLERAGE],   [disable])
+BOOSTER_ENABLE([NVIDIA],        [nvidia],       [Booster NVIDIA],       [disable])
 
 AC_CONFIG_FILES([
     common/Makefile
