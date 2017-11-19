@@ -4,6 +4,10 @@ Booster Themes are themes for GTK 3, GTK 2 and GNOME Shell
 
 ## Booster themes come in 2 variants for now and more will come
 
+##### Military
+
+![screenshot](https://i.imgur.com/qpeJZuN.png)
+
 ##### Nvidia
 
 ![screenshot](http://i.imgur.com/mRYufq2.png)
@@ -44,6 +48,7 @@ Other options to pass to autogen.sh are
     --disable-nvidia           disable Nvidia Theme
     --disable-hotrod           disable Hot Rod Theme
     --disable-purplerage       disable Purple Rage Theme
+    --disable-military         disable Military Grade Theme
 
 ## Uninstall
 
